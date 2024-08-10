@@ -13,7 +13,7 @@ console.log(accountId);
 
 /*
 Prefer not to use var
-bacoz of issue in block scope and functional scope
+becoz of issue in block scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
