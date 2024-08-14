@@ -32,7 +32,7 @@ console.log(Math.floor((Math.random()*10) + 1)); //
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min)) + min); //it gives value always greater than min and less than max
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); //it gives value always greater than min and less than max
 
 
 
